@@ -145,7 +145,7 @@ def login():
         if username.strip().lower() == "anju" and password == "happy10May":
             st.session_state.logged_in = True
             st.success("Access granted! 🎉")
-            st.rerun()
+            #st.rerun()
         else:
             st.error("Incorrect username or password. Try again!")
 
